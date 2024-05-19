@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" href="bmi.css">
+</head>
+<body>
+    
+    <div class="cont">
+        <div class="rec">
+            <h1 class="Hone">Adult BMI calculator</h1>
+            <input type="radio" id="checkmale" name="inputss" >  
+            <label class="malepara" for="checkmale">Male</label>
+            <input type="radio" id="checkfemale" name="inputss">  
+             <label class="femalepara" for="checkfemale">Female</label>
+         
+            <h2 class="Htwo">Height(in-cm)</h2>
+            <input type="number" id="inputheight" >
+            <h2 class="Htwo">Weight(in-kg)</h2>
+            <input type="number" id="inputweight">
+            
+            <button id="but" onclick=" numberbmi()">calculate</button> 
+        
+            
+          </div>
+    </div> 
+    
+    <div class="mancont" id="manpage">
+        <div class="menr">
+            <img src="Bmi-chart-1.jpg" alt="">
+            <div class="dip">gopro</div>
+            <button class="goback" onclick="togoback()" >Go back</button>
+        </div>
+    </div>
+    
+    <div class="femalecont" id="femalepage">
+        <div class="femaler">
+            <img src="female page.webp" alt="">
+            <div class="dip2">
+                  gopro
+            </div>
+            <button class="goback"  onclick="togoback()">Go back</button>
+        </div>
+    </div>
+    <script src="bmik.js"></script>
+</body>
+</html>
